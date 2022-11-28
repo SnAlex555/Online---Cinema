@@ -1,9 +1,10 @@
 import { Component } from '../../../../core'
 
 export class H1 extends Component {
-    
-    componentDidMount() {
-        this.attachShadow({ mode: 'open'})
+
+    constructor(){
+        super();
+        this.isShadow = true;
     }
 
     render() {

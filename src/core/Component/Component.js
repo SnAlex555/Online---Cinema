@@ -8,7 +8,7 @@ export class Component extends HTMLElement {
 
   get html () {
     return this.isShadow
-    ? this
+    ? this.innerHTML
     : this.shadowRoot
   }
 
@@ -30,9 +30,9 @@ export class Component extends HTMLElement {
     }
   }
 
-  this.ComponentDidMount(){
+  // this.ComponentDidMount(){
 
-  }
+  // }
 
   disconnectedCallback() {
     this.componentWillUnmount();
