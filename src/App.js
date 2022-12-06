@@ -19,7 +19,7 @@ export class App extends core.Component {
                 <it-route path="${appRoutes.movieDetails}/:id" component="movie-details-page" title="Movie Details Page"></it-route>
                 <it-route path="${appRoutes.errorPage}" component="error-page" title="Not Found Page"></it-route>
                 <it-outlet></it-outlet>
-              <main>
+              </main>
             <it-footer></it-footer>
           </it-router>
       </div>
